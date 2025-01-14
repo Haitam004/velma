@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Park</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            max-height: 50px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #e41e26;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .hero h1 {
+            font-size: 2rem;
+        }
+        .hero p {
+            margin: 20px 0;
+            font-size: 1.2rem;
+        }
+        .documents {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+        .document {
+            text-align: center;
+            max-width: 300px;
+        }
+        .document img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .document p {
+            background-color: #e41e26;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: -20px;
+            position: relative;
+            z-index: 1;
+        }
+        .contact {
+            background-color: #f8f8f8;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        .contact form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .contact form input, .contact form select, .contact form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact form button {
+            background-color: #ce0d13;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            .document img {
+    transition: transform 0.3s ease-in-out;
+}
+.document img:hover {
+    transform: scale(1.05);
+}
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="c:\Users\hp\Downloads\téléchargement.jpeg" alt="Expert Park App">
+        <nav>
+            <a href="#">حمل التطبيق</a>
+            <a href="#">تواصل معنا</a>
+            <a href="#">انضم لنا كسائق</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="c:\Users\hp\Downloads\téléchargement (1).png" alt="Expert Park App">
+        <h1>ربط السائقين بـ YANGO PRO</h1>
+        <p>العديد من المكافآت والعروض. لا توجد أي اقتطاعات إضافية.</p>
+    </section>
+    <section class="documents">
+        <div class="document">
+            <img src="c:\Users\hp\Downloads\images (1).jpeg" alt="Phone">
+            <p>رقم الهاتف للتسجيل</p>
+        </div>
+        <div class="document">
+            <img src="c:\Users\hp\Downloads\téléchargement (1).jpeg" alt="Car License">
+            <p>شهادة تسجيل المركبة</p>
+        </div>
+        <div class="document">
+            <img src="c:\Users\hp\Downloads\téléchargement (2).jpeg" alt="Driving License">
+            <p>صورة لرخصة السياقة</p>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>تسجيل معنا الآن!</h2>
+        <form>
+            <input type="text" placeholder="الاسم الكامل" required>
+            <input type="tel" placeholder="رقم الهاتف" required>
+            <select required>
+                <option value="">اختر المدينة</option>
+                <option value="casablanca">الدار البيضاء</option>
+                <option value="rabat">الرباط</option>
+                <option value="tangier">طنجة</option>
+            </select>
+            <label>هل تمتلك سيارة؟</label>
+            <input type="radio" name="car" value="yes" id="yes" required> نعم
+            <input type="radio" name="car" value="no" id="no" required> لا
+            <button type="submit">التسجيل</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Expert Park. Tous droits réservés.</p>
+        <nav>
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">الشروط والأحكام</a>
+            <a href="#">اتصل بنا</a>
+        </nav>
+    </footer>
+
+        </div>
+        </div>    
+</body>
+</html>
+
+
+
